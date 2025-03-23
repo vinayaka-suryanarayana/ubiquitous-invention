@@ -1,5 +1,5 @@
 import pytest
-from fetching.geoloc_util import get_city_data, get_city_data_by_zip, fetch_city_data_for_locations, CityData
+from geoloc_util import get_city_data, get_city_data_by_zip, fetch_city_data_for_locations, CityData
 
 # Sample test data for parameterization
 city_state_data = [
