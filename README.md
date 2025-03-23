@@ -1,11 +1,11 @@
-# Weather Data Fetcher
+# City Data Fetcher
 
-This project is a Python application that fetches weather data for specified locations using the OpenWeatherMap API. It supports querying by city/state or zip code and returns relevant geographical information.
+This project is a Python application that fetches city data for specified locations using the OpenWeatherMap API. It supports querying by city/state or zip code and returns relevant geographical information.
 
 ## Features
 
-- Fetch weather data based on city and state.
-- Fetch weather data based on zip code.
+- Fetch city data based on city and state.
+- Fetch city data based on zip code.
 - Handle multiple locations in a single request.
 - Return structured data using the `CityData` class.
 
@@ -59,7 +59,7 @@ Replace `"your_api_key_here"` with your actual API key.
 
 ## Usage
 
-To fetch weather data for specified locations, run the following command:
+To fetch city data for specified locations, run the following command:
 
 ```bash
 python -m geoloc_util --locations "City, State" "Zip Code"
@@ -71,7 +71,7 @@ python -m geoloc_util --locations "City, State" "Zip Code"
 python -m geoloc_util --locations "Los Angeles, CA" "98115"
 ```
 
-This command will return the weather data for Los Angeles, CA, and the zip code 98115.
+This command will return the city data for Los Angeles, CA, and the zip code 98115.
 
 ## Function Call Flow
 
