@@ -62,13 +62,13 @@ Replace `"your_api_key_here"` with your actual API key.
 To fetch weather data for specified locations, run the following command:
 
 ```bash
-python -m fetching.geoloc_util --locations "City, State" "Zip Code"
+python -m geoloc_util --locations "City, State" "Zip Code"
 ```
 
 ### Example
 
 ```bash
-python -m fetching.geoloc_util --locations "Los Angeles, CA" "98115"
+python -m geoloc_util --locations "Los Angeles, CA" "98115"
 ```
 
 This command will return the weather data for Los Angeles, CA, and the zip code 98115.
@@ -90,5 +90,5 @@ graph TD;
 To run the tests, use the following command:
 
 ```bash
-pytest fetching/test_geoloc_util.py -v
+pytest test_geoloc_util.py -v
 ```
